@@ -24,7 +24,15 @@ public class CalcTest {
 		assertEquals(actual,expected);
 	}
 	
+	@Test
+	public void test2() {
+		Calc c = new Calc();
+		int actual=c.divide(10,2);
+		int expected=5;
+		
+		assertEquals(actual,expected);
+	
 	
 		
-
+	}
 }
