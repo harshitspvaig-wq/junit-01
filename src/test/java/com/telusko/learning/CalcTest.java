@@ -41,4 +41,13 @@ public class CalcTest {
 		
 		assertEquals(actual,expected);	
 	}
+	
+	@Test
+	public void test4() {
+		Calc c = new Calc();
+		int actual=c.divide(20,4);
+		int expected=5;
+		
+		assertEquals(actual,expected);	
+	}
 }
