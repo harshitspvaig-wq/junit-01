@@ -30,9 +30,15 @@ public class CalcTest {
 		int actual=c.divide(10,2);
 		int expected=5;
 		
-		assertEquals(actual,expected);
+		assertEquals(actual,expected);	
+	}
 	
-	
+	@Test
+	public void test3() {
+		Calc c = new Calc();
+		int actual=c.divide(16,4);
+		int expected=4;
 		
+		assertEquals(actual,expected);	
 	}
 }
